@@ -6,9 +6,15 @@
 
 /* INIZIO Navbar - Header */
 
-.row {
+nav .row {
   height: 90px;
   background-color: #C3C3C3;
+}
+
+nav .row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* ul sinistra */
@@ -44,6 +50,12 @@
   height: 70vh;
 }
 
+.jumbotron::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .m-auto {
   margin: 0 auto;
 }
@@ -64,6 +76,10 @@
 
 .w-85 {
   width: 85%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 /* altezze */
@@ -101,4 +117,53 @@
   background-color: #A569BD;
 }
 
+/* MAIN */
 
+.container {
+  width: 60%;
+  height: 100vh;
+}
+
+.bg-grey {
+  background-color: #C3C3C3;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+main .row {
+  height: 150px;
+}
+
+/* Colonne main */
+
+.bg-light-green {
+  background-color: #D4EFDF;
+}
+
+.col .col-border {
+  border: 1px solid #000;
+}
+
+.col .col-width {
+  width: calc(90% / 3);
+  height: 700px;
+}
+
+.col .bg-blue {
+  background-color: #3498DB;
+}
+
+.col .col-m {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.col-row-height {
+  height: 8%;
+}
+
+.col-row-border {
+  border-bottom: 1px soldi #000;
+}
