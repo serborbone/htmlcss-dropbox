@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* INIZIO Navbar - Header */
+
+.row {
+  height: 90px;
+  background-color: #C3C3C3;
+}
+
+/* ul sinistra */
+
+.ul-sx {
+  height: 100%;
+  width: 30%;
+  background-color: #F2E0CB;
+}
+
+.float-left {
+  float: left;
+}
+
+/* ul destra */
+
+.ul-dx {
+  height: 100%;
+  width: 30%;
+  background-color: #F2E0CB;
+}
+
+.float-right {
+  float: right;
+}
+
+/* FINE Navbar - Header */
+
+/* Jumbotron Header */
+
+.jumbotron {
+  background-color: #AED6F1;
+  height: 70vh;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+/* larghezze */
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+/* altezze */
+
+.h-40 {
+  height: 40%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* background color */
+
+.bg-green {
+  background-color: #48C9B0;
+}
+
+.bg-orange {
+  background-color: #F5B7B1;
+}
+
+.bg-yellow {
+  background-color: #F1C40F;
+}
+
+.bg-red {
+  background-color: #CD6155;
+}
+.bg-purple {
+  background-color: #A569BD;
+}
+
+
