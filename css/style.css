@@ -25,10 +25,6 @@ nav .row::after {
   background-color: #F2E0CB;
 }
 
-.float-left {
-  float: left;
-}
-
 /* ul destra */
 
 .ul-dx {
@@ -37,11 +33,17 @@ nav .row::after {
   background-color: #F2E0CB;
 }
 
+.float-left {
+  float: left;
+}
+
 .float-right {
   float: right;
 }
 
 /* FINE Navbar - Header */
+
+
 
 /* Jumbotron Header */
 
@@ -56,11 +58,43 @@ nav .row::after {
   clear: both;
 }
 
+.jumbo-full-w {
+  background-color: #48C9B0;
+}
+
+.jumbotron .jumbo-h1 {
+  background-color: #F5B7B1;
+}
+
+.jumbotron .txt-img-container {
+  background-color: #F1C40F;
+}
+
+.jumbotron .left-text {
+  background-color: #CD6155;
+}
+
+.jumbotron .right-img {
+  background-color: #A569BD;
+}
+
+/* MARGIN */
+
 .m-auto {
   margin: 0 auto;
 }
 
+.m-top-30 {
+  margin-top: 30px;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+
 /* larghezze */
+
 
 .w-40 {
   width: 40%;
@@ -82,7 +116,17 @@ nav .row::after {
   width: 100%;
 }
 
+
 /* altezze */
+
+
+.h-20 {
+  height: 20%;
+}
+
+.h-25 {
+  height: 25%;
+}
 
 .h-40 {
   height: 40%;
@@ -96,54 +140,23 @@ nav .row::after {
   height: 100%;
 }
 
-/* background color */
-
-.bg-green {
-  background-color: #48C9B0;
-}
-
-.bg-orange {
-  background-color: #F5B7B1;
-}
-
-.bg-yellow {
-  background-color: #F1C40F;
-}
-
-.bg-red {
-  background-color: #CD6155;
-}
-.bg-purple {
-  background-color: #A569BD;
-}
-
 /* MAIN */
 
-.container {
+.container-w {
   width: 60%;
-  height: 100vh;
-}
-
-.bg-grey {
   background-color: #C3C3C3;
 }
 
-.m-top-80 {
-  margin-top: 80px;
-}
-
-main .row {
+main .h2-row {
   height: 150px;
+  background-color: #D4EFDF;
 }
 
 /* Colonne main */
 
-.bg-light-green {
-  background-color: #D4EFDF;
-}
-
-.col .col-border {
+.col .piano-col {
   border: 1px solid #000;
+  background-color: #3498DB;
 }
 
 .col .col-width {
@@ -151,19 +164,46 @@ main .row {
   height: 700px;
 }
 
-.col .bg-blue {
-  background-color: #3498DB;
-}
-
 .col .col-m {
   margin-right: 5%;
   margin-left: 5%;
+}
+
+.col-row-top {
+  border-bottom: 1px solid #000;
+  text-align: center;
 }
 
 .col-row-height {
   height: 8%;
 }
 
-.col-row-border {
-  border-bottom: 1px soldi #000;
+/* CLEARFIX tre colonne  */
+
+main .col::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ROW bottom tre colonne piani */
+
+.col-row-bottom {
+  border: 1px solid #000;
+  background-color: #F0B27A;
+  height: 200px;
+}
+
+.col-row-bottom .row-b {
+  background-color: #F0B27A;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+/* Sezione centrale con img float letft
+   e text float right */
+
+.find-section {
+  height: 300px;
+  background-color: cornflowerblue;
 }
