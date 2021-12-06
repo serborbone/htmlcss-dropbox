@@ -96,6 +96,10 @@ nav .row::after {
   margin-bottom: 30px;
 }
 
+.m-top-110 {
+  margin-top: 110px;
+}
+
 /* larghezze */
 
 
@@ -242,6 +246,53 @@ main .col::after {
 }
 
 .col-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sezione clienti */
+
+.title-clients {
+  height: 150px;
+}
+
+
+/* Colonne clienti */
+
+.sect-clients {
+  width: 100vw;
+}
+
+/* Colonna Sinistra e Destra */
+
+.col-client-left, .col-client-right {
+  height: 20vw;
+  width: 20vw;
+  background-color: red;
+  /* border: 1px solid #000; */
+}
+
+/* Colonna Centrale */
+
+.col-client-center {
+  width: 60vw;
+  height: 20vw;
+  background-color: chartreuse;
+}
+
+/* Elementi sezione sx e dx */
+.row-clients .item {
+  background-color: darkcyan;
+  height: 10vw;
+  width: 10vw;
+  float: left;
+  border: 1px solid #000;
+}
+
+/* CLEARFIX */
+
+.sect-clients::after {
   content: "";
   display: table;
   clear: both;
