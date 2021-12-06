@@ -297,3 +297,32 @@ main .col::after {
   display: table;
   clear: both;
 }
+
+.bottom-clients {
+  background-color: #A569BD;
+  height: 250px;
+}
+
+.bottom-clients .container-w {
+  background-color: darkmagenta;
+  height: 100%;
+}
+
+.faq .question-sect {
+  border-bottom: 1px solid #4e0000;
+}
+
+.faq {
+  height: 400px;
+}
+
+.faq .answer-hide {
+  display: none;
+}
+
+.faq .question-sect:hover + .answer-hide {
+  display: block;
+  padding-top: 20px;
+}
+
+
