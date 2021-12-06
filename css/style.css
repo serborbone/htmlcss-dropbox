@@ -92,6 +92,9 @@ nav .row::after {
   margin-top: 80px;
 }
 
+.m-bottom-30 {
+  margin-bottom: 30px;
+}
 
 /* larghezze */
 
@@ -143,7 +146,7 @@ nav .row::after {
 /* MAIN */
 
 .container-w {
-  width: 60%;
+  width: 50%;
   background-color: #C3C3C3;
 }
 
@@ -206,4 +209,40 @@ main .col::after {
 .find-section {
   height: 300px;
   background-color: cornflowerblue;
+}
+
+.find-section .left-img {
+  background-color: crimson;
+  width: 55%;
+  height: 100%;
+}
+
+.find-section .right-text {
+  background-color:darkgoldenrod;
+  width: 45%;
+  height: 100%;
+}
+
+/* SEZIONE 6 Colonne */
+
+.col-oper {
+  background-color: #E74C3C;
+  width: calc(96% / 3);
+  float: left;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.p-right {
+  margin-right: 2%;
+}
+
+.p-left {
+  margin-left: 2%;
+}
+
+.col-container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
