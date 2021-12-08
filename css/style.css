@@ -607,33 +607,74 @@ main .col::after {
 prova gratuita */
 
 .bottom-clients {
-  background-color: #A569BD;
-  height: 250px;
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  background-color: #B4D0E7;
+}
+
+.bottom-clients .container-w::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-clients h3 {
+  font-size: 2em;
+  display: inline;
+  color: #61082B;
+}
+
+.bottom-clients a {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 2px 15px;
+  float: right;
+}
+
+.bottom-clients .float-left {
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-clients .float-right {
+  width: 50%;
+  padding-top: 110px;
+  padding-bottom: 100px;
 }
 
 .bottom-clients .container-w {
-  background-color: darkmagenta;
   height: 100%;
+  width: 60%;
 }
 
 
 /* Domande Frequenti */
+
+.faq h3 {
+  font-size: 1.8em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
 .faq .question-sect {
-  border-bottom: 1px solid #4e0000;
+  border-bottom: 1px solid #c3c3c3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 600;
+}
+
+.question-sect .fas {
+  float: right;
+  margin-right: 10px;
 }
 
 .faq {
   height: 400px;
 }
 
-.faq .answer-hide {
-  display: none;
-}
 
-.faq .question-sect:hover + .answer-hide {
-  display: block;
-  padding-top: 20px;
-}
 
 /* FOOTER */
 
@@ -643,17 +684,15 @@ footer {
 }
 
 .foot-wrap {
-  background-color: #E74C3C;
-  height: 350px;
-  width: 60%;
+  width: 50%;
 }
 
 .foot-wrap .foot-col {
   width: calc(100% / 5);
-  background-color: cornflowerblue;
-  height: 250px;
   float: left;
-  border: 1px solid #000;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  color: #fff;
 }
 
 .foot-wrap .foot-clearfix::after {
@@ -662,10 +701,42 @@ footer {
   clear: both;
 }
 
+/* Titolo colonna */
+
+.foot-col h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Menu UL */
+
+.foot-col ul li {
+  list-style: none;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+}
+
+.foot-col ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*  Grey Row */
 .foot-wrap .foot-row {
-  background-color: yellowgreen;
-  border-top: 1px solid yellow;
-  width: 200px;
+  border-top: 1px solid #c3c3c3;
+  width: 120px;
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+/* Row Italiano*/
+
+.foot-lang {
+  color: #c3c3c3;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+
+.foot-lang .fas {
+  padding-right: 10px;
 }
