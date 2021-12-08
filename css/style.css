@@ -527,23 +527,40 @@ main .col::after {
 /* Sezione clienti */
 
 .title-clients {
-  height: 150px;
+  width: 50%;
 }
 
+.title-clients h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.title-clients a {
+  color: #0061FF;
+}
 
 /* Colonne clienti */
 
 .sect-clients {
   width: 100vw;
+  margin-top: 50px;
 }
+
 
 /* Colonna Sinistra e Destra */
 
 .col-client-left, .col-client-right {
   height: 20vw;
   width: 20vw;
-  background-color: red;
-  /* border: 1px solid #000; */
+}
+
+.col-client-left .item img, 
+.col-client-right .item img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Colonna Centrale */
@@ -551,12 +568,27 @@ main .col::after {
 .col-client-center {
   width: 60vw;
   height: 20vw;
-  background-color: chartreuse;
+  background-color: #F5F5F5;
+  padding: 50px;
+  overflow: scroll;
+}
+
+.col-client-center img {
+  width: 12%;
+}
+
+.col-client-center .grey-row {
+  width: 5%;
+  border-top: 1px solid #c3c3c3;
+  margin-top: 20px;
+}
+
+.col-client-center p {
+  margin-top: 25px;
 }
 
 /* Elementi sezione sx e dx */
 .row-clients .item {
-  background-color: darkcyan;
   height: 10vw;
   width: 10vw;
   float: left;
@@ -571,6 +603,9 @@ main .col::after {
   clear: both;
 }
 
+/* Row sotto clients con link bianco
+prova gratuita */
+
 .bottom-clients {
   background-color: #A569BD;
   height: 250px;
@@ -581,6 +616,8 @@ main .col::after {
   height: 100%;
 }
 
+
+/* Domande Frequenti */
 .faq .question-sect {
   border-bottom: 1px solid #4e0000;
 }
