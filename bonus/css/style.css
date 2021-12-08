@@ -41,6 +41,12 @@ nav .row::after {
   vertical-align: middle;
 }
 
+/* BORDER bottom con Hover*/
+
+.row .head-menu li:hover {
+  border-bottom: 2px solid #000;
+}
+
 .row .head-menu a {
   text-decoration: none;
 }
