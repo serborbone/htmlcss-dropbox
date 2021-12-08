@@ -1,0 +1,749 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* INIZIO Navbar - Header */
+
+nav .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ul sinistra */
+
+.ul-sx {
+  height: 70px;
+  width: 50%;
+  line-height: 60px;
+}
+
+.row .logo-head {
+  vertical-align: middle;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.row .head-menu {
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
+
+.row .head-menu li {
+  display: inline-block;
+  padding: 0 15px;
+  vertical-align: middle;
+}
+
+.row .head-menu a {
+  text-decoration: none;
+}
+
+
+/* ul destra */
+
+.ul-dx {
+  height: 70px;
+  width: 50%;
+  line-height: 60px;
+  text-align: right;
+}
+
+.head-menu .btn-inizia {
+  padding: 4px 15px;
+  background-color: #0061FF;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* FINE Navbar - Header */
+
+
+
+/* Jumbotron Header */
+
+.jumbotron {
+  background-color: #B4D0E7;
+}
+
+.jumbotron::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* h1 Jumbotron */
+
+.jumbotron .jumbo-h1 {
+  font-size: 3em;
+  padding-top: 55px;
+}
+
+/* Blocco testo a sx */
+
+.txt-img-container .left-text {
+  padding-top: 60px;
+}
+
+.txt-img-container .p-txt-jumbo {
+  margin-bottom: 20px;
+}
+
+/* Bottone Prova Gratuita*/
+
+.txt-img-container .btn-free {
+  background-color: #0061FF;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 13px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Testo sotto link prova gratuita*/
+
+.txt-img-container .jumbo-s-txt {
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+
+/* FRECCIA jumbotron */
+
+.left-text .fa-arrow-down {
+  font-size: 2em;
+}
+
+/* IMG blocco destro */
+
+.right-img img {
+  width: 125%;
+  position: relative;
+  top: 60px;
+}
+
+/* MARGIN */
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.m-top-20 {
+  margin-top: 20px;
+}
+
+.m-top-30 {
+  margin-top: 30px;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+.m-left-15 {
+  margin-left: 15px;
+}
+
+.m-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.m-top-110 {
+  margin-top: 110px;
+}
+
+.m-top-140 {
+  margin-top: 140px;
+}
+
+/* PADDING */
+
+.p-bottom-30 {
+  padding-bottom: 30px;
+}
+
+/* larghezze */
+
+.max-width {
+  max-width: 1180px;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+
+/* altezze */
+
+
+.h-20 {
+  height: 20%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-40px {
+  height: 40px;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* INLINE BLOCK */
+.in-block {
+  display: inline-block;
+}
+
+/* MAIN */
+
+.container-w {
+  width: 50%;
+}
+
+.piano-wrap .h2-row h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+/* Cerchi tipo Fatturazione */
+
+.piano-wrap .h2-row .circle {
+  border: 1px solid #a3a3a3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.piano-wrap .h2-row .circle:hover {
+  border: 5px solid #0061FF;
+}
+
+
+
+/* Colonne main */
+
+.col {
+  height: 900px;
+}
+
+.col .piano-col {
+  border: 1px solid #000;
+  height: 100%;
+}
+
+/* Larghezza tre colonne */
+
+.col .col-width {
+  width: calc(92% / 3);
+}
+
+.piano-col .col-data {
+  padding: 30px 30px;
+}
+
+/* Nome Piano */
+
+.col-data h3, .col-row-data h3 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.col-data .fa-check {
+  color: #0061FF;
+}
+
+/* Margin colonna centrale */
+
+.col .col-m {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+/* Riga Tipo piano con icona */
+
+.col-row-top {
+  border-bottom: 1px solid #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Link blu Prova Gratis */
+
+.piano-col .col-data .btn-col {
+  background-color: #0061FF;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px 0; 
+  margin-top: 40px;
+  display: inline-block;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* Link small acquista */
+
+.col-data .link-acquista {
+  color: #0061FF;
+  text-decoration-color: #0061FF;
+}
+
+.col-data .col-data-row {
+  border-top: 1px solid #c3c3c3;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.col-data .col-mese {
+  display: block;
+  font-size: 0.8em;
+  color: #888888;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+/* Stile righe testo dentro colonne */
+
+.col-data .col-span {
+  display: block;
+  padding-top: 20px;
+  font-size: 0.8em;
+}
+
+/* CLEARFIX tre colonne  */
+
+main .col::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* ROW bottom Team Enterprise */
+
+.col-row-bottom {
+  border: 1px solid #000; 
+  margin-top: 50px;
+}
+
+/* CLEARFIX */
+
+.col-row-bottom::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* Team con icona */
+
+.col-row-bottom .row-b {
+  border-bottom: 1px solid #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Padding interno*/
+
+.col-row-data {
+  padding: 30px 30px;
+}
+
+/* Link blu a dx 
+  "contatta ufficio venditore"*/
+
+.col-row-btn {
+  background-color: #0061FF;
+  color: #fff;
+  width: 90%;
+  text-decoration: none;
+  padding: 8px 0; 
+  display: inline-block;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+
+/* Sezione centrale con img float letft
+   e text float right */
+
+.find-section {
+  height: 470px;
+  margin-top: 120px;
+}
+
+/* Blocco IMG floattato a sx */
+
+.find-section .left-img {
+  width: 60%;
+  height: 100%;
+}
+
+.find-section .left-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Blocco testo floattato a dx */
+
+.find-section .right-text {
+  width: 40%;
+  height: 100%;
+}
+
+.find-section .right-text h3 {
+  font-size: 1.4em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.find-section .right-text p {
+  font-size: 0.9em;
+}
+
+/* Link "trova un partner" */
+
+.right-text .btn-find {
+  border: 1px solid #000;
+  padding: 8px 15px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+
+
+/* SEZIONE 6 Colonne */
+
+/* Titolo h2 */
+
+.oper-title-h2 h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/* sei Colonne del main */
+
+.col-oper {
+  width: calc(96% / 3);
+  float: left;
+  margin-bottom: 70px;
+}
+
+/* Immagine colonna */
+
+.col-oper .img-wrap {
+  height: 60%;
+  margin-bottom: 10px;
+}
+
+.col-oper .img-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Titolo colonna */
+
+.col-oper h4 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Testo colonna */
+
+.col-oper p {
+  font-size: 0.9em;
+}
+
+.p-right {
+  margin-right: 2%;
+}
+
+.p-left {
+  margin-left: 2%;
+}
+
+.oper-col-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sezione clienti */
+
+.title-clients {
+  width: 50%;
+}
+
+.title-clients h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.title-clients a {
+  color: #0061FF;
+}
+
+/* Colonne clienti */
+
+.sect-clients {
+  width: 100vw;
+  margin-top: 50px;
+}
+
+
+/* Colonna Sinistra e Destra */
+
+.col-client-left, .col-client-right {
+  height: 20vw;
+  width: 20vw;
+}
+
+.col-client-left .item img, 
+.col-client-right .item img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Colonna Centrale */
+
+.col-client-center {
+  width: 60vw;
+  height: 20vw;
+  background-color: #F5F5F5;
+  padding: 50px;
+  overflow: scroll;
+}
+
+.col-client-center img {
+  width: 12%;
+}
+
+.col-client-center .grey-row {
+  width: 5%;
+  border-top: 1px solid #c3c3c3;
+  margin-top: 20px;
+}
+
+.col-client-center p {
+  margin-top: 25px;
+}
+
+/* Elementi sezione sx e dx */
+.row-clients .item {
+  height: 10vw;
+  width: 10vw;
+  float: left;
+  border: 1px solid #000;
+}
+
+/* CLEARFIX */
+
+.sect-clients::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Row sotto clients con link bianco
+prova gratuita */
+
+.bottom-clients {
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  background-color: #B4D0E7;
+}
+
+.bottom-clients .container-w::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-clients h3 {
+  font-size: 2em;
+  display: inline;
+  color: #61082B;
+}
+
+.bottom-clients a {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 2px 15px;
+  float: right;
+}
+
+.bottom-clients .float-left {
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-clients .float-right {
+  width: 50%;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.bottom-clients .container-w {
+  height: 100%;
+  width: 60%;
+}
+
+
+/* Domande Frequenti */
+
+.faq h3 {
+  font-size: 1.8em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.faq .question-sect {
+  border-bottom: 1px solid #c3c3c3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 600;
+}
+
+.question-sect .fas {
+  float: right;
+  margin-right: 10px;
+}
+
+.faq {
+  height: 400px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  margin-top: 60px;
+  background-color: #000;
+}
+
+.foot-wrap {
+  width: 50%;
+}
+
+.foot-wrap .foot-col {
+  width: calc(100% / 5);
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  color: #fff;
+}
+
+.foot-wrap .foot-clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Titolo colonna */
+
+.foot-col h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Menu UL */
+
+.foot-col ul li {
+  list-style: none;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+}
+
+.foot-col ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*  Grey Row */
+.foot-wrap .foot-row {
+  border-top: 1px solid #c3c3c3;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Row Italiano*/
+
+.foot-lang {
+  color: #c3c3c3;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+
+.foot-lang .fas {
+  padding-right: 10px;
+}
