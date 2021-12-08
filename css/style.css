@@ -434,6 +434,7 @@ main .col::after {
 
 .find-section .left-img img {
   height: 100%;
+  object-fit: cover;
 }
 
 /* Blocco testo floattato a dx */
@@ -465,14 +466,48 @@ main .col::after {
   font-size: 0.8em;
 }
 
+
+
 /* SEZIONE 6 Colonne */
 
+/* Titolo h2 */
+
+.oper-title-h2 h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/* sei Colonne del main */
+
 .col-oper {
-  background-color: #E74C3C;
   width: calc(96% / 3);
   float: left;
-  border: 1px solid #000;
-  height: 200px;
+  margin-bottom: 70px;
+}
+
+/* Immagine colonna */
+
+.col-oper .img-wrap {
+  height: 60%;
+  margin-bottom: 10px;
+}
+
+.col-oper .img-wrap img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Titolo colonna */
+
+.col-oper h4 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Testo colonna */
+
+.col-oper p {
+  font-size: 0.9em;
 }
 
 .p-right {
@@ -483,7 +518,7 @@ main .col::after {
   margin-left: 2%;
 }
 
-.col-container::after {
+.oper-col-row::after {
   content: "";
   display: table;
   clear: both;
