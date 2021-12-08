@@ -134,12 +134,20 @@ nav .row::after {
   margin: 0 auto;
 }
 
+.m-top-20 {
+  margin-top: 20px;
+}
+
 .m-top-30 {
   margin-top: 30px;
 }
 
 .m-top-80 {
   margin-top: 80px;
+}
+
+.m-left-15 {
+  margin-left: 15px;
 }
 
 .m-bottom-30 {
@@ -150,14 +158,32 @@ nav .row::after {
   margin-top: 110px;
 }
 
+.m-top-140 {
+  margin-top: 140px;
+}
+
+/* PADDING */
+
+.p-bottom-30 {
+  padding-bottom: 30px;
+}
+
 /* larghezze */
 
 .max-width {
   max-width: 1180px;
 }
 
+.w-15 {
+  width: 15%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
 .w-35 {
-  width: 35%;ì;
+  width: 35%;
 }
 
 .w-40 {
@@ -200,6 +226,10 @@ nav .row::after {
   height: 40%;
 }
 
+.h-40px {
+  height: 40px;
+}
+
 .h-60 {
   height: 60%;
 }
@@ -208,42 +238,128 @@ nav .row::after {
   height: 100%;
 }
 
+/* INLINE BLOCK */
+.in-block {
+  display: inline-block;
+}
+
 /* MAIN */
 
 .container-w {
   width: 50%;
-  background-color: #C3C3C3;
 }
 
-main .h2-row {
-  height: 150px;
-  background-color: #D4EFDF;
+.piano-wrap .h2-row h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
 }
+
+/* Cerchi tipo Fatturazione */
+
+.piano-wrap .h2-row .circle {
+  border: 1px solid #a3a3a3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.piano-wrap .h2-row .circle:hover {
+  border: 5px solid #0061FF;
+}
+
+
 
 /* Colonne main */
 
+.col {
+  height: 900px;
+}
+
 .col .piano-col {
   border: 1px solid #000;
-  background-color: #3498DB;
+  height: 100%;
 }
+
+/* Larghezza tre colonne */
 
 .col .col-width {
-  width: calc(90% / 3);
-  height: 700px;
+  width: calc(92% / 3);
 }
 
-.col .col-m {
-  margin-right: 5%;
-  margin-left: 5%;
+.piano-col .col-data {
+  padding: 30px 30px;
 }
+
+/* Nome Piano */
+
+.col-data h3, .col-row-data h3 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.col-data .fa-check {
+  color: #0061FF;
+}
+
+/* Margin colonna centrale */
+
+.col .col-m {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+/* Riga Tipo piano con icona */
 
 .col-row-top {
   border-bottom: 1px solid #000;
   text-align: center;
+  line-height: 40px;
 }
 
-.col-row-height {
-  height: 8%;
+/* Link blu Prova Gratis */
+
+.piano-col .col-data .btn-col {
+  background-color: #0061FF;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px 0; 
+  margin-top: 40px;
+  display: inline-block;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* Link small acquista */
+
+.col-data .link-acquista {
+  color: #0061FF;
+  text-decoration-color: #0061FF;
+}
+
+.col-data .col-data-row {
+  border-top: 1px solid #c3c3c3;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.col-data .col-mese {
+  display: block;
+  font-size: 0.8em;
+  color: #888888;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+/* Stile righe testo dentro colonne */
+
+.col-data .col-span {
+  display: block;
+  padding-top: 20px;
+  font-size: 0.8em;
 }
 
 /* CLEARFIX tre colonne  */
@@ -254,19 +370,51 @@ main .col::after {
   clear: both;
 }
 
-/* ROW bottom tre colonne piani */
+
+
+
+/* ROW bottom Team Enterprise */
 
 .col-row-bottom {
-  border: 1px solid #000;
-  background-color: #F0B27A;
-  height: 200px;
+  border: 1px solid #000; 
 }
 
+/* CLEARFIX */
+
+.col-row-bottom::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* Team con icona */
+
 .col-row-bottom .row-b {
-  background-color: #F0B27A;
   border-bottom: 1px solid #000;
   text-align: center;
+  line-height: 40px;
 }
+
+/* Padding interno*/
+
+.col-row-data {
+  padding: 30px 30px;
+}
+
+/* Link blu a dx 
+  "contatta ufficio venditore"*/
+
+.col-row-btn {
+  background-color: #0061FF;
+  color: #fff;
+  width: 90%;
+  text-decoration: none;
+  padding: 8px 0; 
+  display: inline-block;
+  font-size: 0.7em;
+  text-align: center;
+}
+
 
 /* Sezione centrale con img float letft
    e text float right */
