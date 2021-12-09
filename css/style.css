@@ -21,6 +21,14 @@ nav .row::after {
   line-height: 60px;
 }
 
+header nav .row {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  border-bottom: 1px solid #c3c3c3;
+}
+
 .row .logo-head {
   vertical-align: middle;
   padding-right: 10px;
@@ -146,6 +154,10 @@ nav .row::after {
   margin-top: 80px;
 }
 
+.m-top-70 {
+  margin-top: 70px;
+} 
+
 .m-left-15 {
   margin-left: 15px;
 }
@@ -163,6 +175,10 @@ nav .row::after {
 }
 
 /* PADDING */
+
+.p-top-70 {
+  padding-top: 70px;
+}
 
 .p-bottom-30 {
   padding-bottom: 30px;
@@ -562,6 +578,8 @@ main .col::after {
   height: 100%;
   object-fit: contain;
 }
+
+
 
 /* Colonna Centrale */
 
