@@ -21,6 +21,14 @@ nav .row::after {
   line-height: 60px;
 }
 
+header nav .row {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  border-bottom: 1px solid #c3c3c3;
+}
+
 .row .logo-head {
   vertical-align: middle;
   padding-right: 10px;
@@ -176,6 +184,10 @@ nav .row::after {
 }
 
 /* PADDING */
+
+.p-top-70 {
+  padding-top: 70px;
+}
 
 .p-bottom-30 {
   padding-bottom: 30px;
@@ -574,6 +586,27 @@ main .col::after {
   display: block;
   height: 100%;
   object-fit: contain;
+  filter: invert(); 
+}
+
+.border-green {
+  border: 10px solid #D0E9CD;
+}
+
+.green {
+  background-color: #A2D39B;
+}
+
+.brown {
+  background-color: #61082B;
+}
+
+.blue {
+  background-color: #0093CE;
+}
+
+.red {
+  background-color: #FF1C1C;
 }
 
 /* Colonna Centrale */
@@ -600,12 +633,27 @@ main .col::after {
   margin-top: 25px;
 }
 
+.dark-red {
+  background-color: #D5001F;
+}
+
+.light-blue {
+  background-color: #B4D0E7;
+}
+
+.dark-blue {
+  background-color: #0D2481;
+}
+
+.yellow {
+  background-color: #FFD830;
+}
+
 /* Elementi sezione sx e dx */
 .row-clients .item {
   height: 10vw;
   width: 10vw;
   float: left;
-  border: 1px solid #000;
 }
 
 /* CLEARFIX */

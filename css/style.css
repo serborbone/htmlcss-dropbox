@@ -154,10 +154,6 @@ header nav .row {
   margin-top: 80px;
 }
 
-.m-top-70 {
-  margin-top: 70px;
-} 
-
 .m-left-15 {
   margin-left: 15px;
 }
@@ -577,6 +573,27 @@ main .col::after {
   display: block;
   height: 100%;
   object-fit: contain;
+  filter: invert(); 
+}
+
+.border-green {
+  border: 10px solid #D0E9CD;
+}
+
+.green {
+  background-color: #A2D39B;
+}
+
+.brown {
+  background-color: #61082B;
+}
+
+.blue {
+  background-color: #0093CE;
+}
+
+.red {
+  background-color: #FF1C1C;
 }
 
 
@@ -605,12 +622,28 @@ main .col::after {
   margin-top: 25px;
 }
 
+.dark-red {
+  background-color: #D5001F;
+}
+
+.light-blue {
+  background-color: #B4D0E7;
+}
+
+.dark-blue {
+  background-color: #0D2481;
+}
+
+.yellow {
+  background-color: #FFD830;
+}
+
 /* Elementi sezione sx e dx */
 .row-clients .item {
   height: 10vw;
   width: 10vw;
   float: left;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 /* CLEARFIX */
