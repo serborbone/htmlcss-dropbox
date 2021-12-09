@@ -772,6 +772,10 @@ footer {
   color: #fff;
 }
 
+.foot-col ul li a:hover {
+  text-decoration: underline;
+}
+
 /*  Grey Row */
 .foot-wrap .foot-row {
   border-top: 1px solid #c3c3c3;
