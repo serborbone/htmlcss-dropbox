@@ -450,6 +450,14 @@ main .col::after {
   margin-top: 120px;
 }
 
+/* CLEARFIX */
+
+.find-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Blocco IMG floattato a sx */
 
 .find-section .left-img {
